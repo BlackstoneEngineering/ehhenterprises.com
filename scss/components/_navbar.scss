@@ -11,6 +11,9 @@
     background-color: $primary;
     @include heading-font;
   }
+  .navbar-logo {
+    width: 10em;
+  }
   .navbar-brand {
     color: $primary;
     @include script-font;
@@ -38,6 +41,7 @@
     }
   }
 }
+
 @media(min-width:992px) {
   #mainNav {
     padding-top: 25px;
